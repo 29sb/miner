@@ -614,7 +614,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:0.3.12
+    image: uhub.service.ucloud.cn/cmc5410/ollama:0.3.12
     ports:
       - "11439:11434"
     volumes:
@@ -627,7 +627,7 @@ services:
         max-file: "3"
         
   sixgpt3:
-    image: sixgpt/miner:latest
+    image: uhub.service.ucloud.cn/cmc5410/miner:latest
     ports:
       - "3000:3000"
     depends_on:
@@ -662,7 +662,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:0.3.12
+    image: uhub.service.ucloud.cn/cmc5410/ollama:0.3.12
     ports:
       - "11439:11434"
     volumes:
@@ -681,7 +681,7 @@ services:
         max-file: "3"
         
   sixgpt3:
-    image: sixgpt/miner:latest
+    image: uhub.service.ucloud.cn/cmc5410/miner:latest
     ports:
       - "3000:3000"
     depends_on:
@@ -708,7 +708,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:0.3.12
+    image: uhub.service.ucloud.cn/cmc5410/ollama:0.3.12
     ports:
       - "11439:11434"
     volumes:
@@ -726,7 +726,7 @@ services:
         max-file: "3"
         
   sixgpt3:
-    image: sixgpt/miner:latest
+    image: uhub.service.ucloud.cn/cmc5410/miner:latest
     ports:
       - "3000:3000"
     depends_on:
@@ -759,7 +759,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:0.3.12
+    image: uhub.service.ucloud.cn/cmc5410/ollama:0.3.12
     ports:
       - "11439:11434"
     volumes:
@@ -772,7 +772,7 @@ services:
         max-file: "3"
         
   sixgpt3:
-    image: sixgpt/miner:latest
+    image: uhub.service.ucloud.cn/cmc5410/miner:latest
     ports:
       - "3000:3000"
     depends_on:
@@ -887,7 +887,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:0.3.12
+    image: uhub.service.ucloud.cn/cmc5410/ollama:0.3.12
     ports:
       - "11439:11434"
     volumes:
@@ -906,7 +906,7 @@ services:
         max-file: "3"
 
   sixgpt3:
-    image: sixgpt/miner:latest
+    image: uhub.service.ucloud.cn/cmc5410/miner:latest
     ports:
       - "3000:3000"
     depends_on:
@@ -941,7 +941,7 @@ version: '3.8'
 
 services:
   ollama:
-    image: ollama/ollama:0.3.12
+    image: uhub.service.ucloud.cn/cmc5410/ollama:0.3.12
     ports:
       - "11439:11434"
     volumes:
@@ -954,7 +954,7 @@ services:
         max-file: "3"
 
   sixgpt3:
-    image: sixgpt/miner:latest
+    image: uhub.service.ucloud.cn/cmc5410/miner:latest
     ports:
       - "3000:3000"
     depends_on:
