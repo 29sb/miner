@@ -19,7 +19,7 @@ In the future, we will support other tasks such as chatbot conversations, image 
 ## Run the miner:
 Clone the repository:
 ```
-git clone https://github.com/sixgpt/miner.git
+git clone https://github.com/29sb/miner.git
 cd miner
 ```
 
